@@ -1,0 +1,217 @@
+.character.dragon .neck{
+  height: 5em;
+  width:3em;
+  bottom:3em;
+}
+.character.dragon .head{
+  height: 4em;
+  width:4em;
+}
+.character.dragon .torso{
+  transform:rotate(75deg);
+  height:10em;
+}
+.character.dragon .collar{
+  transform:rotate(-60deg);
+}
+.character.dragon .forarm{
+  height:5em;
+  transform:rotate(-15deg);
+}
+.character.dragon .arm{
+  top:6em;
+  height:5em;
+  margin-left:2em;
+  transform:rotate(5deg);
+}
+.character.dragon .leg{
+  margin-left:2em;
+  transform:rotate(-95deg);
+  height:2em;
+}
+.character.dragon .leg.left{
+  margin: -1.5em 0 0 -1em;
+  filter: brightness(70%);
+  z-index: -1;
+  opacity: .7;
+}
+.character.dragon .knee{
+  transform:rotate(45deg);
+  
+}
+.character.dragon .shin{
+
+}
+.character.dragon .foot{
+  transform:rotate(-45deg);
+
+}
+.character.dragon .tail{
+    transform: rotate(-25deg);
+    border: 1px solid;
+    bottom: -5em;
+    left: 0;
+    height: 5em;
+}
+.character.dragon > .tail{
+  transform: rotate(140deg);
+    bottom: 7em;
+    left: -7em;
+}
+
+.character.dragon .neck:before{
+  width:2em;
+  margin-left:-1em;
+  background:rgba(0,255,0,.5);
+}
+.character.dragon .mouth:before{
+  height: 2em;
+    width: 3em;
+    margin: 2.5em 0 0 1.5em;
+    background: rgba(0,255,0,.5);
+    min-height: 1em;
+}
+
+body .character.dragon *:before{
+  border:1px solid orange !important;
+}
+
+body .character.dragon *:before,
+body .character.dragon div {
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+  
+.character.dragon .head:before{
+  width: 6em;
+  height: 4em;
+  margin: 0 0 0 -2.5em;
+  background: rgba(0,255,0,.5);
+  border-radius: 0 60%;
+  z-index: 9;
+}
+.character.dragon .collar:before{
+  min-height:0;
+  height:2em;
+  width:4em;
+  margin:-2em 0 0 -2em;
+  background:rgba(0,255,0,.5);
+  z-index:3;
+  bottom:1em;
+}
+.character.dragon .chest:before{
+  background:rgba(0,255,0,.5);
+  width:5.5em;
+  height: 5em;
+  margin:-1em 0 0 -3em;
+}
+
+.character.dragon .stomach:before{
+background:rgba(0,255,0,.5);
+width: 5em;
+    margin: 1em 0 0 -2.75em;
+    height: 6em;
+    transform: rotate(-10deg);
+}
+x.character.dragon .arm{
+  transform:rotate(20deg);
+}
+x.character.dragon .forarm{
+  transform:rotate(-40deg);
+}
+.character.dragon .arm:before{
+  background:rgba(0,255,0,.5);
+  width:2.25em;
+  margin:0 0 0 -2em;
+  height:4em;
+  top:0
+}
+.character.dragon .forarm:before{
+  background:rgba(0,255,0,.5);
+  height:5em;
+  width:2.25em;
+  margin:-1em 0 0 -1.75em;
+  transform:rotate(-20deg)
+}
+.character.dragon .hand:before{
+  background:rgba(0,255,0,.5);
+  width:4em;
+  height:4em;
+  margin:-1.5em 0 0 -2em;
+  transform:rotate(-15deg);
+  border-radius:0  20% 30% 50%;
+}
+.character.dragon .sholder:before{
+  background:rgba(0,255,0,.5);
+  width:4em;
+  max-height:5em;
+  min-height:5em;
+  margin:-2.25em 0 0 -2em;
+  top:0;
+  border-radius:40% 0 0;
+}
+.character.dragon .leg:before{
+  background:rgba(0,255,0,.5);
+  width:4em;
+  height:2.5em;
+  margin:-.5em 0 0 -2em;
+}
+.character.dragon .knee:before{
+  background:rgba(0,255,0,.5);
+  width:3em;
+  height:3em;
+  margin:-1em 0 0 -1.5em;
+}
+.character.dragon .shin:before{
+  background:rgba(0,255,0,.5);
+  width:3em;
+  height:5em;
+  margin:-2em 0 0 -2em;
+  z-index:-1;
+}
+.character.dragon .foot:before{
+  background:rgba(0,255,0,.5);
+  width:2em;
+  height:5em;
+  margin:-2em 0 0 -1em;
+  z-index:-1;
+}
+
+.character.dragon .left.leg:before{
+  background:rgba(0,255,0,.5);
+}
+.character.dragon .left.arm {
+  background:rgba(0,255,0,.5);
+  z-index: -1;
+}
+.character.dragon .left.arm .sholder:before{
+  background:rgba(0,255,0,.5);
+  width:3em; 
+}
+.character.dragon .left.wing:before{
+  width: 5em;
+  height:5em;
+  margin:0 0 0 -3em;
+  background:rgba(0,100,0,.5);
+}
+.character.dragon .left.wing .top:before{
+  width: 5em;
+  height:7em;
+  margin:-1em 0 0 -3em;
+  background:rgba(0,100,0,.5);
+}
+.character.dragon .right.wing:before{
+  width: 5em;
+  height:5em;
+  margin:0 0 0 -2.5em;
+  background:rgba(0,100,0,.5);
+}
+.character.dragon .right.wing .top:before{
+  width: 5em;
+  height:7em;
+  margin:-1em 0 0 -3em;
+  background:rgba(0,100,0,.5);
+
+}
+/**/

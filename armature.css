@@ -1,0 +1,119 @@
+#templates {
+  opacity:.2;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+}
+main{
+  padding:6em;
+}
+body *:before, body *:after{
+  position:absolute;
+  content:"";
+  display:block;
+}
+.character{
+  position:absolute;
+  left:50%;
+  box-shadow:0 0 0 1px hotpink;
+  height:18em;
+  bottom:0;
+}
+.character.flipLeft{
+  transform:scale(-1,1);
+}
+.character .neck{
+  height: 5em;
+  width:3em;
+  bottom:.05em;
+}
+.character .head {z-index:9; bottom:0; margin: 0 0 3.25em 0;}
+.character .arm,
+.character .torso{
+  top:4em;
+}
+.character .wing{
+  z-index:-2;
+}
+.character .left.wing{
+  transform: rotate(-115deg);
+  margin: .5em 2em;
+}
+.character .right.wing{
+  transform: rotate(115deg);
+  margin: .5em 0 0 -2em;
+}
+.character .wing .top{
+  top: 100%;
+  transform: rotate(15deg);
+  margin-left:-.5em;
+}
+.character .wing.left .top{
+  transform: rotate(-15deg);
+  margin-left:.5em;
+}
+.character .torso{
+  margin-top:-.5em;
+  height:5em;
+}
+.character .arm {
+  height:2.5em;
+}
+.character .forarm {
+  top:100%;
+  height:2.5em;
+}
+.character .hand{
+  top:100%;
+  height:1em
+}
+
+.character .leg{
+  top:100%;
+}
+.character .leg .knee{
+  top:100%;
+  height:1em;
+}
+.character .shin{
+  top:100%;
+}
+.character .foot{
+  top:100%;
+  height:1em
+}
+.character .arm.left{
+  left:2.5em;
+}
+.character .arm.right{
+  left:-2.5em;
+}
+.character .left {
+  left:1.5em;
+}
+.character .right {
+  left:-1.5em;
+}
+.character *:after{
+  box-shadow:0 0 0 1px hotpink;
+  border-radius:50%;
+  height:1em;
+  width:1em;
+  left: -.5em;
+  top:-.5em;
+}
+.character *:before{
+  border-left:1px solid rebeccapurple;
+  position:absolute;
+  min-height:100%;
+}
+.character div{
+  position:absolute;  
+  height:4em;
+}
+
+
+

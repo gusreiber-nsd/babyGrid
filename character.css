@@ -1,0 +1,140 @@
+body .character.boy *:after {
+  display:none;
+}
+body .character.boy *:before{
+  border:none;
+}
+
+body .character.boy *:before,
+body .character.boy div {
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+  
+.character.boy .head:before{
+  width:5em;
+  height:6em;
+  margin:-2em 0 0 -2.5em;
+  background-image:url(boy/head.png);
+  z-index:9;
+}
+.character.boy .collar:before{
+  height:2em;
+  width:4em;
+  margin:-2em 0 0 -2em;
+  background-image:url(boy/collar.png);
+  z-index:3;
+}
+.character.boy .chest:before{
+  background-image:url(boy/chest.png);
+  width:5.5em;
+height: 5em;
+  margin:-1em 0 0 -3em;
+}
+
+.character.boy .stomach:before{
+background-image: url(/boy/stomach.png);
+width: 5em;
+    margin: 1em 0 0 -2.75em;
+    height: 6em;
+    transform: rotate(-10deg);
+}
+x.character.boy .arm{
+  transform:rotate(20deg);
+}
+x.character.boy .forarm{
+  transform:rotate(-40deg);
+}
+.character.boy .arm:before{
+  background-image:url(boy/rightBicept.png);
+  width:2.25em;
+  margin:0 0 0 -2em;
+  height:4em;
+  top:0
+}
+.character.boy .forarm:before{
+  background-image:url(boy/rightForarm.png);
+  height:5em;
+  width:2.25em;
+  margin:-1em 0 0 -1.75em;
+  transform:rotate(-20deg)
+}
+.character.boy .hand:before{
+  background-image:url(boy/rightGlove.png);
+  width:4em;
+  height:4em;
+  margin:-1.5em 0 0 -2em;
+  transform:rotate(-15deg);
+}
+.character.boy .sholder:before{
+  background-image:url(boy/rightSholder.png);
+  width:4em;
+  max-height:5em;
+  min-height:5em;
+  margin:-2.25em 0 0 -2em;
+  top:0;
+}
+.character.boy .leg:before{
+  background-image:url(boy/rightThigh.png);
+  width:4em;
+  height:5em;
+  margin:-.5em 0 0 -2em;
+}
+.character.boy .knee:before{
+  background-image:url(boy/rightKnee.png);
+  width:3em;
+  height:3em;
+  margin:-1em 0 0 -1.5em;
+}
+.character.boy .shin:before{
+  background-image:url(boy/rightShin.png);
+  width:3em;
+  height:5em;
+  margin:-2em 0 0 -2em;
+  z-index:-1;
+}
+.character.boy .foot:before{
+  background-image:url(boy/rightBoot.png);
+  width:5.25em;
+  height:3.75em;
+  margin:-2.5em 0 0 -3em;
+  z-index:-1;
+}
+
+.character.boy .left.leg:before{
+  background-image:url(boy/leftThigh.png);
+}
+.character.boy .left.arm {
+  background-image:url(boy/leftBicept.png);
+  z-index: -1;
+}
+.character.boy .left.arm .sholder:before{
+  background-image:url(boy/leftSholder.png); 
+  width:3em; 
+}
+.character.boy .left.wing:before{
+  background-image:url(boy/leftWingBottom.png);
+  width: 5em;
+  height:5em;
+  margin:0 0 0 -3em;
+}
+.character.boy .left.wing .top:before{
+  background-image:url(boy/leftWingTop.png);
+  width: 5em;
+  height:7em;
+  margin:-1em 0 0 -3em;
+}
+.character.boy .right.wing:before{
+  background-image:url(/boy/rightWingBottom.png);
+  width: 5em;
+  height:5em;
+  margin:0 0 0 -2.5em;
+}
+.character.boy .right.wing .top:before{
+  background-image:url(boy/rightWingTop.png);
+  width: 5em;
+  height:7em;
+  margin:-1em 0 0 -3em;
+}
+/**/
